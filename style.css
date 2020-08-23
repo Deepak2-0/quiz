@@ -1,0 +1,79 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(128,248,174,1) 0%, rgba(223,244,148,1) 90% );
+}
+/* h3{
+  font-size: 4vh;
+} */
+.header-text{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #0f3460;
+    font-weight:bolder;
+    margin: 0 0 1% 0;
+}
+.card{
+  margin:2%;
+}
+.side-text{
+  font-family: 'Sacramento';
+  color: #0f3460;
+  font-weight:bold;
+  font-size: 3rem;
+  margin: 0 0 2% 0;
+}
+.page1{
+  padding:3% 10%;
+  text-align: center;
+}
+.page1-movie{
+  height:100%;
+  width:100%;
+  margin-bottom: 5%;
+}
+.page1-cricket{
+  height:80%;
+  width:58%;
+  margin-bottom: 5%;
+}
+.page1-general{
+  height:110%;
+  width:100%;
+  margin-bottom: 13%;
+}
+
+/* Movie */
+
+#carouselExampleControls{
+  padding:5% 15% 5% 15%;
+}
+.carousel-item{
+  text-align: center;
+}
+.col{
+  /* border: 1px solid black; */
+  border-radius: 8rem;
+  padding: 2% 0 2% 2%;
+  margin: 2%;
+  text-align: left;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.question{
+  margin: 5%;
+}
+
+.wrong{
+  background-color:  #ff4c68 ;
+}
+
+.correct{
+ background-color: #3f72af;
+}
+.home-button{
+  width:30%;
+  margin: 2%;
+  border-radius: 8rem;
+  margin: 5% 30% 0 30%;
+  padding: 1% 5% 1% 3%;
+}
